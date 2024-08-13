@@ -24,5 +24,44 @@ num = io.read("*n")
 -- se quiser ler mais de um número por vez:
 num = io.read("*n", "*n") -- ex: lendo 2 numeros de uma vez
 
-frase = io.read() -- desta ele uma cadeia de caracteres qualquer
+frase = io.read() -- desta maneira, ele uma cadeia de caracteres qualquer
 ```
+
+### Tipos e valores
+- a função type() retorna o tipo de um dado
+- Lua contém 8 tipos básicos: ***nil, number, boolean, string, userdata, function, thread e table***
+- Não é uma linguagem tipada, as variáveis não possuem tipos pré-definidos
+- uma variável pode conter uma função
+- **NIL**: é uma espécie de não valor representando a ausência de um valor útil
+- **BOOLEANO**: podem ser ***false*** ou ***true***
+- **NUMBER**: representa os números reais (não há um tipo específico para valores inteiros, ***number*** abrange todo o conjuntos dos números reais) 
+- **STRING**: representa uma cadeia de caracteres que pode conter qualquer caracter de 8 bits/1 byte.
+  - as strings em Lua são imutáveis. Para modificar uma string é preciso criar outra que salve as modificações
+  - como obter o tamanho de uma string? "#string"
+  - atribuindo cadeias longas:
+```lua
+html_text = [[
+  <html>
+    <head>
+      <title>Ola<title>
+    </head>
+```
+  - operações aplicadas a cadeias geram um valor "inteiro"
+- Conversões:
+  - string para numero: tonumber(string) -- essa função retorna nil se não conseguir efetuar a conversão
+  - numero para string: tostring(number)
+
+### Tabelas
+- array associativo: 
+
+
+
+
+
+
+
+
+
+
+
+
