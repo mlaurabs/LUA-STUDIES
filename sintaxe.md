@@ -52,10 +52,30 @@ html_text = [[
   - numero para string: tostring(number)
 
 ### Tabelas
-- array associativo: 
+- array associativo: é um array que pode ser indexado por qualquer tipo de dado da linguagem exceto **nil**
+- como criar uma tabela?
+  - teste = {} --> um campo de tabela é inicializado com nil
+- para acessar o valor de um indíce de uma tabela, é possível fazer das seguintes formas:
+  - teste[indice] e se o índice for uma cadeia de caracter ele pode ser referenciado assim: teste.name
+```lua
+-- criando um array convencional (indexado por inteiros):
+teste = {}
+for i = 1, 10 do
+  a[i] = io.read()
+end
 
+```
+- comprimento de um array sem buracos, ou seja, com todos os valores diferentes de nil: #teste
+```lua
+teste = {
+    posicao = {x= 1, y=2, z=3}
 
+}
 
+print(teste.posicao.x)
+```
+
+### Função
 
 
 
