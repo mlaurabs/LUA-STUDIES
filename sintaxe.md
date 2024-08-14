@@ -103,24 +103,23 @@ end
 ```
 
 ### Loops
-- ***while**
+- ***while***
 ```lua
 while (condicao) do
   bloco de codigo
 end
 ```
+
 - ***for***
-```lua
--- for numerico:
---[[
-  for var = exp1, exp2 do
-    bloco de código
-  end
-exp1 é o valor inical que a variável vai assumir
-exp2 é o valor máximo que a variável vai assumir
-exp3 é o passo que por padrão é 1
-]]
-```
+  - for numerico:
+    - for var = exp1, exp2 do
+        bloco de código
+    end
+  - exp1 é o valor inical que a variável vai assumir
+  - exp2 é o valor máximo que a variável vai assumir
+  - exp3 é o passo que por padrão é 1
+
+
 
 
 
