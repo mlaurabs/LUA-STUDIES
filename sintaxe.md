@@ -1,4 +1,4 @@
-
+                                                                                                                                        
 ### Comments
 - "--" represents a line comment
 - "--[[ ... ]]" reprsents a block comment
@@ -75,12 +75,52 @@ teste = {
 print(teste.posicao.x)
 ```
 
-### Função
+### Operadores Aritméticos
+- ***+*** . ***-*** . * . / . ***^ (exponenciação)*** . ***% (módulo)***
 
+### Operadores Relacionais
+- ***~= (diferente)***
 
+### Operadores Lógicos
+- ***and*** . ***or*** . ***not***
 
+***- obs: operador de concatenação: ..***
 
+### Tomada de decisão
+- **if then else**
+```lua
+if (a > b) then
+  bloco de codigo
+end
 
+if (a > b) then
+  bloco de codigo
+elseif
+  bloco de codigo
+else
+  bloco de codigo
+end
+```
+
+### Loops
+- ***while**
+```lua
+while (condicao) do
+  bloco de codigo
+end
+```
+- ***for***
+```lua
+-- for numerico:
+--[[
+  for var = exp1, exp2 do
+    bloco de código
+  end
+exp1 é o valor inical que a variável vai assumir
+exp2 é o valor máximo que a variável vai assumir
+exp3 é o passo que por padrão é 1
+]]
+```
 
 
 
