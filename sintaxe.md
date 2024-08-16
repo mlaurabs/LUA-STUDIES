@@ -119,7 +119,17 @@ end
   - exp2 é o valor máximo que a variável vai assumir
   - exp3 é o passo que por padrão é 1
 
+### Funções
+- Estrutura:
+```lua
+function soma(x, y)
+  return x+y
+end
 
+function exibeHello()
+  print("Hello World")
+end
+```
 
 
 
