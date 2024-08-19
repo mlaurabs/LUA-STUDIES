@@ -130,7 +130,15 @@ function exibeHello()
   print("Hello World")
 end
 ```
-
+### Strings
+- Métodos comuns da biblioteca de strings:
+  - ***string.lower(text)*** --> retorna uma cópia da string com letras minúsculas
+  - ***string.upper(text)*** --> retorna uma cópia da string com letras maiúsculas
+  - ***string.sub(text, ini, fim)*** --> retorna uma substring
+  - ***string.char(char or int)*** --> retorna um inteiro correspondente a um char e vice-versa
+  - ***sring.find(text, subtext)*** --> retorna em que índice a substring começa e em qual indice ela termina, se a substring existir na string
+  - ***sring.match(text, subtext)*** --> retorna a substring se elaexistir na string, caso contrário retorna nil
+  - ***string.gsub(text, a ser substituido, substitução)*** --> retorna uma cópia da string em que todas as ocorrências de uma substring foram substituídas por uma string específica
 
 
 
