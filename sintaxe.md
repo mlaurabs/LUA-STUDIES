@@ -139,6 +139,6 @@ end
   - ***sring.find(text, subtext)*** --> retorna em que índice a substring começa e em qual indice ela termina, se a substring existir na string
   - ***sring.match(text, subtext)*** --> retorna a substring se elaexistir na string, caso contrário retorna nil
   - ***string.gsub(text, a ser substituido, substitução)*** --> retorna uma cópia da string em que todas as ocorrências de uma substring foram substituídas por uma string específica
-
+    - o ***string.gsub*** funciona para captura também
 
 
